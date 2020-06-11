@@ -1,0 +1,19 @@
+p, .h1, .h5 {
+    color: white; 
+}
+
+i {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+i:hover {
+    color: pink;
+    font-size: 25px;
+    border: 1px solid pink;
+    border-radius: 30px;
+    padding: 10px;
+}
