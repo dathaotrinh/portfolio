@@ -1,9 +1,9 @@
 <div class="container-fluid" style="position: absolute;">
     <nav class="navbar">
         <div class="container">
-            <a class="nav-link ml-auto" style="color:'#ffffff';font-size: larger;">Home</a>
-            <a class="nav-link ml-5" style="color:'#ffffff';font-size: larger;">About</a>
-            <a class="nav-link ml-5" style="color:'#ffffff';font-size: larger;">Projects</a>
+            <a class="nav-link ml-auto" style="color:'#ffffff';font-size: larger;" routerLink="/home" routerLinkActive="active">Home</a>
+            <a class="nav-link ml-5" routerLink="/about-me"  style="color:'#ffffff';font-size: larger;">About</a>
+            <a class="nav-link ml-5" routerLink="/projects"  style="color:'#ffffff';font-size: larger;">Projects</a>
         </div>
     </nav>
 </div>
@@ -11,5 +11,6 @@
 <div class="container" style="position: absolute; left:50%;
     top:50%; transform: translate(-50%,-50%);">
 
-<app-aboutme></app-aboutme>
+    <router-outlet></router-outlet>
+
 </div>
