@@ -1,16 +1,24 @@
-<div class="container-fluid" style="position: absolute;">
-    <nav class="navbar">
-        <div class="container">
-            <a class="nav-link ml-auto" style="color:'#ffffff';font-size: larger;" routerLink="/home" routerLinkActive="active">Home</a>
-            <a class="nav-link ml-5" routerLink="/about-me"  style="color:'#ffffff';font-size: larger;">About</a>
-            <a class="nav-link ml-5" routerLink="/projects"  style="color:'#ffffff';font-size: larger;">Projects</a>
-        </div>
-    </nav>
-</div>
+<nav class="navbar navbar-expand-lg container-fluid pb-5">
+  <a class="navbar-brand" href="">Thao Trinh's Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" style="font-size: larger;" routerLink="/home" routerLinkActive="active">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about-me" style="font-size: larger;">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/projects" style="font-size: larger;">Projects</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-<div class="container" style="position: absolute; left:50%;
-    top:50%; transform: translate(-50%,-50%);">
-
-    <router-outlet></router-outlet>
-
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
