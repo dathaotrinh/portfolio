@@ -1,0 +1,12 @@
+p, div {
+    color: white; 
+}
+
+.btn {
+    border: 1px solid #ffffff;
+}
+
+.btn:hover {
+    border: 1px solid pink;
+    color: pink; 
+}
