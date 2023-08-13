@@ -9,6 +9,7 @@ import { FacebulousComponent } from './projects/project/facebulous/facebulous.co
 import { OvercdsComponent } from './projects/project/overcds/overcds.component';
 import { HotelComponent } from './projects/project/hotel/hotel.component';
 import { UsaComponent } from './projects/project/usa/usa.component';
+import { FindMyRoommateComponent } from './projects/project/findmyroommate/findmyroommate.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
     {path: 'about-me', component: AboutmeComponent},
     {path: 'projects', component: ProjectsComponent, children: [
       {path: 'project', component: ProjectComponent, children: [
+        {path: 'findmyroommate', component: FindMyRoommateComponent},
         {path: 'facebulous', component: FacebulousComponent},
         {path: 'overcds', component: OvercdsComponent},
         {path: 'hotelbookingsystem', component: HotelComponent},
