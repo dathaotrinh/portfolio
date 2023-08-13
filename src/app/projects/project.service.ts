@@ -7,6 +7,10 @@ import { Subject } from 'rxjs';
 export class ProjectService {
   projects = [
     {
+      name: 'Find My Roommate',
+      detail: [],
+    },
+    {
       name: 'OverCDs',
       detail: [],
     },
